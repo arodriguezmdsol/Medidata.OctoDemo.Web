@@ -13,7 +13,7 @@ namespace Medidata.OctoDemo.Web
     {
         public IHttpActionResult Get()
         {
-            return Ok(new { message = ConfigurationManager.AppSettings["Message"] });
+            return Ok(new { message = ConfigurationManager.AppSettings["app-message"] });
         }
         
     }
